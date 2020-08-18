@@ -13,6 +13,7 @@ function submit() {
         let x = i; //assign x0, x1, x2 etc
         try {
             if(n==0) fx="xx";
+            i=Math.round(i * 10000) / 10000;
             ans[j] = Math.round(parseFloat(eval(fx), 10) * 1000000) / 1000000;  //calculate f(x)
             sum += Math.abs(ans[j]); //add up all of the |f(x)|
             console.log("f(" + i + ") = " + ans[j]);
