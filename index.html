@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h2>Trapezoidal rule</h2>
+    <img src="https://www.a-levelmathstutor.com/images/integration/trapezium-theory.jpg">
+
+    <div class="container">
+        <div class="inputContainer">
+            <p class="display">n= <input type="number" size="22" id="n" > ( n>0 )</p>
+            <p class="display"> a= <input type="number" size="22" id="a"></p>
+            <p class="display">b= <input type="number" size="22" id="b" ></p>
+
+            <p class="display"> f(x)=
+                <input  type="text" size="22" id="d" placeholder="Math.sqrt(1+Math.pow(x,2))"> </p>
+
+                <input type="button" value="submit" onclick='submit()'> 
+                
+        </div>
+
+        <div id="outputContainer">
+            <ul>
+                <li>step size = <span id="h"></span></li>
+                <li>x<sub>0</sub> = <span id="x0"></span></li>
+                <li>x<sub>1</sub> = <span id="x1"></span> </li>
+                <li id="ansText2"> x<sub>2</sub> = <span id="x2"></span></li>
+                <li id="ansText...">...</li>
+                <li id="ansTextn">x<sub>n</sub> = <span id="xn"></span> </li>
+                <li> Area &asymp; <span id="area"> </span></li>
+            </ul>
+
+            <ul>
+                <br>
+                <li>f ( x<sub>0</sub> ) = <span id="f0"></span></li>
+                <li>f ( x<sub>1</sub> ) = <span id="f1"></span></li>
+                <li id="fansText2">f ( x<sub>2</sub> ) = <span id="f2"></span></li>
+                <li id="fansText..."><br></li>
+                <li id="fansTextn">f ( x<sub>n</sub> ) = <span id="fn"></span></li>
+            </ul>
+        </div>
+    </div>
+    <p>** f(x)should be written in code <br> &nbsp; &nbsp; (Math.pow(x,2), Math.PI, 2*x etc)<br>** The website can't support numbers that are too big<br>** f(x<sub>3</sub>), f(x<sub>4</sub>) etc are logged in the console <br> &nbsp; &nbsp; (right click -> inspect -> console) <br><br>
+    Made by Choy Mei Xin (RMM2)
+    </p>
+
+</body>
+
+</html>
