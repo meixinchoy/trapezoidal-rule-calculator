@@ -1,3 +1,4 @@
 # trapezoidal-rule
-repo for hosting my simple javascript trapezoidal rule calculator
+repo for my simple javascript trapezoidal rule calculator
 
+Link to web calculator: https://meixinchoy.github.io/trapezoidal-rule/
