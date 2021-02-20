@@ -1,4 +1,3 @@
 # trapezoidal-rule
-repo for hosting my simple trapezoidal rule calculator
+repo for hosting my simple javascript trapezoidal rule calculator
 
-link to the calculator: https://trapezoidal-rule-calculator.netlify.app/
