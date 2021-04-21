@@ -21,4 +21,14 @@ ul{
 #outputContainer{
   display: none;
 }
+#details{
+  width: 28rem;
+  text-align: justify;
+}
+
+@media (max-width: 760px) {
+  #details{
+    width: 90vw;
+  }
+}
 
