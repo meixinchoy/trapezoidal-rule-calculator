@@ -10,4 +10,4 @@ In Numerical Methods, the [Trapezoidal Rule](https://en.wikipedia.org/wiki/Trape
 
    
      
-     Link to web calculator: https://meixinchoy.github.io/trapezoidal-rule-calculator/
+Link to web calculator: https://meixinchoy.github.io/trapezoidal-rule-calculator/
